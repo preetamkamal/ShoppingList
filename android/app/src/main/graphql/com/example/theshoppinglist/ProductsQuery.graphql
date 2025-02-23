@@ -1,0 +1,12 @@
+query Products {
+  products {
+    id
+    title
+    category
+    price
+    rating {
+      rate
+      count
+    }
+  }
+}
